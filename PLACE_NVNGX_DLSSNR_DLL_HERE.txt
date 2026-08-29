@@ -1,0 +1,11 @@
+Place a compatible, unmodified NVIDIA DLL in this directory as:
+
+    nvngx_dlssnr.dll
+
+This project does not include, modify, download, or provide that file. You must
+obtain it independently and have the right to use it. See README.md for the
+required runtime layout and tested software versions.
+
+Tested versions: display driver 616.56; driver NGX core _nvngx.dll
+32.0.16.1656; nvngx_dlssnr.dll 310.8.0.0. Other versions may work, but have
+not been checked.

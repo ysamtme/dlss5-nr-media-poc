@@ -1,0 +1,10 @@
+* text=auto
+.gitmodules text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.in text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.cmd text eol=crlf
+*.rc text eol=crlf
