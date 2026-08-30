@@ -17,6 +17,12 @@ NVIDIA binaries and SDK headers are not included. Runtime requires 64-bit
 Windows, D3D12, an NVIDIA display driver with NGX, and a user-provided
 `nvngx_dlssnr.dll`.
 
+## Known issue
+
+Microsoft Defender may flag the unsigned `dlssnr-gui.exe` as
+`Trojan:Win32/Sabsik.TE.A!ml`. `dlssnr-image.exe` and `caller/nvngx.dll` are
+not affected. If in doubt, build the project from source.
+
 ## Run
 
 Unpack the release and use this layout:
